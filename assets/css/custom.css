@@ -33,3 +33,8 @@
     font-size: 46px;
     color: #6b7a88;
 }
+#event-features {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
