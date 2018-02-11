@@ -1,0 +1,35 @@
+#darknav.navbar-default {
+    background-color: rgb(247, 247, 247) !important;
+    border-color: #f7f7f7;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.15);
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 147px;
+    margin-top: 1px;
+}
+
+#darknav.navbar-default .navbar-nav>li>a {
+    color: #38567b;
+}
+#darknav.navbar-default .navbar-nav>.active>a, #darknav.navbar-default .navbar-nav>.active>a:focus, #darknav.navbar-default .navbar-nav>.active>a:hover {
+    background: transparent;
+    color: #ed7e1f;
+}
+#video-wrap h1 {
+    background: #151e27;
+    padding: 14px 46px;
+    display: inline-block;
+    color: #f19c47;
+}
+#location address {
+
+    background-color: rgba(26, 42, 57, 0.88) !important;
+
+}
+.feature-icon {
+    font-size: 46px;
+    color: #6b7a88;
+}
