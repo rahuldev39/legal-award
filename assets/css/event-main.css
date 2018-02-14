@@ -60,7 +60,7 @@ a:hover, a:focus {color: #6C7A89;text-decoration: none;}
 .white-bg {background:rgba(255,255,255,1)}
 .dark-bg {background:rgba(20,20,20,0.8)}
 .black-bg {
-    background: rgb(19, 30, 41);
+    background: rgb(0, 0, 0);
 }
 .accent-bg {background:#6C7A89}
 .gray-bg {background:#ececec;}
@@ -401,7 +401,7 @@ section#highlight {background:url(../media/image-backgrounds/contentbg.jpg) no-r
 *********/
 section#pricing {background:url(../media/image-backgrounds/pricingbg.jpg) no-repeat;background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover; background-attachment:fixed}
 section#pricing .price {
-    background: rgb(18, 35, 49);
+    background: rgb(0, 0, 0);
     display: block;
     width: 120px;
     height: 120px;
