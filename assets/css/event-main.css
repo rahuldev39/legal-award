@@ -230,9 +230,23 @@ section .section-title, section .section-title-color, section .section-title-whi
 section h2 {text-transform:uppercase; font-size:21px;font-weight:400; margin-top:0;}
 }
 /* ========== Section Title Black ========== */
-.section-title h2 {margin-top: 20px !important;text-align: center;overflow: hidden;  font-size: 30px;}
+.section-title h2 {
+    margin-top: 20px !important;
+    text-align: center;
+    overflow: hidden;
+    font-size: 34px !important;
+}
 .section-title h2 span {position: relative;}
-.section-title h2 span::before, .section-title h2 span::after {position: absolute;content: '';height: 1px;background: rgba(20,20,20,0.1);top: 16px;width: 1000px;right: 100%;margin-right: 20px;}
+.section-title h2 span::before, .section-title h2 span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    background: rgba(20,20,20,0.1);
+    top: 20px;
+    width: 1000px;
+    right: 100%;
+    margin-right: 20px;
+}
 .section-title h2 span::after {left: 100%;margin-left: 20px;}
 /* ========== Section Title Coloured ========== */
 .section-title-color h2 {margin-top: 20px !important;text-align: center;overflow: hidden;  font-size: 30px;}
@@ -287,7 +301,7 @@ figure.speaker figcaption p.accent {
     margin: 0;
     -webkit-transform: translateY(75%);
     transform: translateY(75%);
-    color: #ed7e1f;
+    color: #daa524;
 }
 figure.speaker figcaption h2 span{font-weight:800}
 figure.speaker figcaption p{font-size:1em;font-weight:500;opacity:0;margin:0}
@@ -409,7 +423,7 @@ section#pricing .price {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    color: #ec7e1f;
+    color: #daa524;
     font-size: 21px;
     font-weight: 400;
     line-height: 120px;
@@ -433,7 +447,7 @@ section#pricing .price {
     top: 20px;
     font-size: 13px;
     width: 120px;
-    background-color: #ed7e1f;
+    background-color: #daa524;
     color: #fff;
     -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
@@ -442,7 +456,7 @@ section#pricing .price {
 }
 .ribbon-light:before, .ribbon-light:after {
     content: "";
-    border-top: 4px solid #884a14;
+    border-top: 4px solid #a57709;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     position: absolute;
