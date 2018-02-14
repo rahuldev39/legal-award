@@ -38,3 +38,92 @@
     display: flex;
     align-items: center;
 }
+.sponsors-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sponsors-logo img {
+    max-width: 132px;
+}
+.categories-block {
+    margin-bottom: 35px;
+}
+.category-table{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.category-table th {
+    background-color: #273a4c;
+    color: white;
+    border-color: #3c546b !important;
+}
+.table-bordered {
+    border: 1px solid #283a4b;
+}
+.action-btn {
+    padding: 2px 11px;
+    font-size: 13px;
+    margin-right: 4px;
+}
+.table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #cdd7e0;
+    font-size: 14px;
+    padding: 12px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f4f9fd;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.modal-header {
+
+    background-color: #283a4b;
+    color: white;
+}
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    filter: alpha(opacity=20);
+    opacity: .5;
+}
+.btn {
+    border-radius: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #425363;
+    border-color: #556777;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #293a4a;
+    border-color: #293a4a;
+}
+.about-us-content p {
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+/*
+.deal-r {
+    background-color: #fff9e2;
+}
+.individual-r {
+    background-color: #e4fff0;
+}
+.law-firm-r {
+    background-color: #e8f6ff;
+}
+.in-house-r {
+    background-color: #fbf1ff;
+}
+.grand-r {
+    background-color: #fff5ec;
+}
+*/
