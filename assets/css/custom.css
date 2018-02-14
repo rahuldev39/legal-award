@@ -29,7 +29,7 @@
 }
 .feature-icon {
     font-size: 46px;
-    color: #424242;
+    color: #f3882d;
 }
 #event-features {
     min-height: 100vh;
@@ -109,6 +109,15 @@
 }
 .speaker-item p {
     color: #5f5e5e;
+}
+.black-bg .btn-main-ghost {
+    color: #ed7e1f;
+    border-color: #ed7e1f;
+}
+.black-bg .btn-main-ghost:hover {
+    color: #FFF !important;
+    background-color: #ed7e1f;
+    border-color: #f5f5f5 !important;
 }
 /*
 .deal-r {
