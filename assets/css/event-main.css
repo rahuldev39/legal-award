@@ -128,7 +128,13 @@ video {width: 100%;height: 100%;display: inline-block;vertical-align: baseline;}
     background-size: cover;
 }
 .content-overlay h1, .content-overlay p {color: #fff;}
-.content-overlay h3 span.date {border: 2px solid #FFF;padding: 10px;letter-spacing: 6px;}
+.content-overlay h3 span.date {
+    border: 2px solid #FFF;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
 /* ========== Content Overlay Launch Page ========== */
 .content-overlay-counter {position: relative;z-index: 20;padding: 7% 5% 5%;height: 100%;background: rgba(20,20,20,0.5);}
 .content-overlay-counter h1, .content-overlay-counter p {color: #fff;}
@@ -172,7 +178,7 @@ video {width: 100%;height: 100%;display: inline-block;vertical-align: baseline;}
 #video-wrap h2 {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 40px;
 }
 #video-wrap .sm-title {text-transform:uppercase; font-weight:700;font-size:21px}
 }
