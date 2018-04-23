@@ -58,15 +58,7 @@ body {
 #location address {
     background-color: rgba(8, 8, 8, 0.88) !important;
 }
-.feature-icon {
-    font-size: 46px;
-    color: #DAA520;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(top, #e6bd4e 0, #e2a233 38%, #f0c328 60%, #e6ac30 86%, #e8b72e 100%);
-    background-size: 1em 1em;
-    color: #f8b700;
-}
+
 #event-features {
     min-height: 100vh;
     display: flex;
@@ -184,16 +176,30 @@ body {
 }
 #video-wrap h2 span {
     font-size: 18px;
+    margin-top: 13px;
+    display: block;
 }
 .association-block h2 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: #dba929;
+
 }
 .association-block h2 img {
     background-color: #ffffffbf;
     padding: 5px;
     max-width: 112px;
     margin-top: 14px;
+}
+.lq-presnt {
+    font-size: 32px;
+    color: #DAA520;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(top, #e6bd4e 0, #e2a233 38%, #f0c328 60%, #e6ac30 86%, #e8b72e 100%);
+    background-size: 1em 1em;
+    color: #f8b700;
+    display: inline-block;
+    margin-bottom: 0px;
 }
 /*
 .deal-r {
