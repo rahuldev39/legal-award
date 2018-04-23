@@ -190,6 +190,17 @@ body {
     max-width: 112px;
     margin-top: 14px;
 }
+.feature-icon{
+  font-size: 32px;
+  color: #DAA520;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(top, #e6bd4e 0, #e2a233 38%, #f0c328 60%, #e6ac30 86%, #e8b72e 100%);
+  background-size: 1em 1em;
+  color: #f8b700;
+  display: inline-block;
+  margin-bottom: 0px;
+}
 .lq-presnt {
     font-size: 32px;
     color: #DAA520;
